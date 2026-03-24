@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Elite Fitness GYM</title>
+  <link rel="stylesheet" href="gym.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="GYM.html">Elite Fitness<span class="accent">GYM</span></a>
+      <nav class="nav" id="nav">
+        <a href="GYM.html"><span class="nav-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 11.5L12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1V11.5z" fill="currentColor"/></svg>
+        </span>Home</a>
+        <a href="about.html" class="active" aria-current="page"><span class="nav-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" fill="currentColor"/></svg>
+        </span>About Us</a>
+        <a href="gallery.html"><span class="nav-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 19V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14h18zM8.5 13.5l2-2 3 4H5l3.5-2z" fill="currentColor"/></svg>
+        </span>Gallery</a>
+        <a href="team.html"><span class="nav-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v2h20v-2c0-3.3-6.7-5-10-5z" fill="currentColor"/></svg>
+        </span>Team</a>
+        <a href="contact.html"><span class="nav-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2 6.5V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6.5L12 13 2 6.5zM22 5H2l10 7 10-7z" fill="currentColor"/></svg>
+        </span>Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <!-- This part of code is for hero section part -->
+  <section class="hero">
+    <div class="hero-slides">
+      <video autoplay muted loop class="slide"s >
+        <source src="../Vids/vid3.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <h1>TRANSFORM YOUR LIFE AT ELITE FITNESS</h1>
+      <p>Discover the path to a healthier, stronger you with our expert guidance and state-of-the-art facilities.</p>
+    </div>
+  </section>
+
+  <!-- This part of code is for main content section part -->
+  <main class="page-main">
+    <!-- <div class="bg-shape shape1"></div>
+    <div class="bg-shape shape2"></div>
+    <div class="bg-shape shape3"></div> -->
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Elite Fitness GYM provides personal training, group sessions, and tailored fitness plans for all levels. Our trainers are certified professionals who focus on safe technique and measurable results. Join our friendly community and transform your health.</p>
+
+      <div class="about-grid" style="margin-top:24px">
+        <div class="about-image" style="background-image:url('../images/2.jpg');height:320px;border-radius:12px"></div>
+        <div style="padding-left:18px">
+          <ul class="benefits">
+            <li><span class="icon">🏆</span> Certified Trainers</li>
+            <li><span class="icon">📅</span> Personalized Plans</li>
+            <li><span class="icon">🏋️</span> Modern Equipment</li>
+            <li><span class="icon">🍎</span> Nutrition Guidance</li>
+            <li><span class="icon">👥</span> Group Classes & Coaching</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- This part of code is for mission and vision section part -->
+      <section class="section container" style="margin-top:40px">
+        <h2 >Our Mission & Vision</h2>
+        <div class="mission-vision-grid">
+          <div class="mission-card">
+            <h3>Mission</h3>
+            <p>To empower our community through fitness and health.</p>
+          </div>
+          <div class="vision-card">
+            <h3>Vision</h3>
+            <p>To be the leading hub for physical excellence in the region.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- This part of code is for stats counter section part -->
+      <section class="stats-section container">
+<marquee behavior="scroll" direction="left" scrollamount="6" onmouseover="this.stop()" onmouseout="this.start()" loop="infinite">
+        <div class="stats-grid">
+          <div class="stat">
+            <h3 class="counter" data-target="500">13</h3>
+            <p>Active Members</p>
+          </div>
+          <div class="stat">
+            <h3 class="counter" data-target="10">2</h3>
+            <p>Certified Trainers</p>
+          </div>
+          <div class="stat">
+            <h3 class="counter" data-target="20">5</h3>
+            <p>Weekly Classes</p>
+          </div>
+          <div class="stat">
+            <h3 class="counter" data-target="5">3</h3>
+            <p>Years of Experience</p>
+          </div>
+        </div>
+        </marquee>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- This part of code is for footer section part -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+            <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-section">
+          <h4>Opening Hours</h4>
+          <p>Mon-Fri: 6AM - 10PM</p>
+          <p>Sat-Sun: 8AM - 8PM</p>
+        </div>
+        <div class="footer-section">
+          <h4>Address</h4>
+          <p>Haripur, Mang Road near to PAK-IAST University</p>
+        </div>
+      </div>
+      <p>&copy; 2026 EliteFitnessGYM — All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

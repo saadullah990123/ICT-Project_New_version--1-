@@ -1,0 +1,79 @@
+<!-- This part of code is for HTML document structure part -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- This part of code is for head section part -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Elite Fitness GYM</title>
+  <link rel="stylesheet" href="gym.css">
+</head>
+<!-- This part of code is for body section part -->
+<body>
+  <!-- This part of code is for header section part -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="GYM.html">Elite Fitness<span class="accent">GYM</span></a>
+      <nav class="nav" id="nav">
+        <a href="GYM.html"><span class="nav-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 11.5L12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1V11.5z" fill="currentColor"/></svg>
+        </span>Home</a>
+        <a href="about.html"><span class="nav-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" fill="currentColor"/></svg>
+        </span>About Us</a>
+        <a href="gallery.html"><span class="nav-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 19V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14h18zM8.5 13.5l2-2 3 4H5l3.5-2z" fill="currentColor"/></svg>
+        </span>Gallery</a>
+        <a href="team.html"><span class="nav-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v2h20v-2c0-3.3-6.7-5-10-5z" fill="currentColor"/></svg>
+        </span>Team</a>
+        <a href="contact.html" class="active" aria-current="page"><span class="nav-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2 6.5V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6.5L12 13 2 6.5zM22 5H2l10 7 10-7z" fill="currentColor"/></svg>
+        </span>Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+ 
+  <main class="page-main">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <div class="contact-grid" style="margin-top:18px">
+        <form id="contactForm" class="contact-form">
+          <label><span>Your name</span><input type="text" name="name" required></label>
+          <label><span>Email</span><input type="email" name="email" required></label>
+          <label><span>Message</span><textarea name="message" rows="6" required></textarea></label>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+
+
+        <div class="contact-info">
+          <h3>Elite Fitness GYM Studio</h3>
+          <p><strong>Phone:</strong> 0329-033-5528</p>
+          <p><strong>Email:</strong> info@elitegym.hotmail.com</p>
+          <p><strong>Address:</strong> Haripur, Mang Road near to PAK-IAST University</p>
+
+          <div class="social-links" aria-label="Follow us">
+            <a href="https://facebook.com/YourGymPage" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07C2 17.1 5.66 21.18 10.44 21.95v-6.97H8.1v-2.9h2.34V9.41c0-2.32 1.38-3.6 3.5-3.6.99 0 2.03.18 2.03.18v2.23h-1.14c-1.12 0-1.47.7-1.47 1.41v1.7h2.5l-.4 2.9h-2.1V21.95C18.34 21.18 22 17.1 22 12.07z"/></svg>
+            </a>
+
+            <a href="https://instagram.com/YourGymPage" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" ry="5"/><path d="M16 11.37a4 4 0 1 1-7.999.001A4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></svg>
+            </a>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- This part of code is for footer section part -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 EliteFitnessGYM — All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
