@@ -1,0 +1,241 @@
+<!-- This part of code is for HTML document structure part -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- This part of code is for head section part -->
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GYM — Landing Page</title>
+  <link rel="stylesheet" href="gym.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<!-- This part of code is for body section part -->
+<body>
+  <!-- This part of code is for header section part -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">Elite Fitness<span class="accent">GYM</span></a>
+      <nav class="nav" id="nav">
+        <a href="GYM.html" class="active" aria-current="page"><span class="nav-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 11.5L12 4l9 7.5V20a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1V11.5z" fill="currentColor"/></svg>
+        </span>Home</a>
+        <a href="about.html"><span class="nav-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" fill="currentColor"/></svg>
+        </span>About Us</a>
+        <a href="gallery.html"><span class="nav-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 19V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14h18zM8.5 13.5l2-2 3 4H5l3.5-2z" fill="currentColor"/></svg>
+        </span>Gallery</a>
+        <a href="team.html"><span class="nav-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v2h20v-2c0-3.3-6.7-5-10-5z" fill="currentColor"/></svg>
+        </span>Team</a>
+        <a href="contact.html"><span class="nav-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M2 6.5V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6.5L12 13 2 6.5zM22 5H2l10 7 10-7z" fill="currentColor"/></svg>
+        </span>Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <!-- This part of code is for hero section part -->
+  <section id="home" class="hero">
+    <div class="hero-slides" id="heroSlides">
+      <!-- images folder assumed at project root (../images/gym1.jpg .. gym8.jpg) -->
+      <div class="slide" style="background-image:url('../images/1.jpg')"></div>
+      <div class="slide" style="background-image:url('../images/2.jpg')"></div>
+      <div class="slide" style="background-image:url('../images/3.jpg')"></div>
+      <div class="slide" style="background-image:url('../images/4.jpg')"></div>
+      <div class="slide" style="background-image:url('../images/5.jpg')"></div>
+      <div class="slide" style="background-image:url('../images/6.jpg')"></div>
+      <div class="slide" style="background-image:url('../images/7.jpg')"></div>
+      <div class="slide" style="background-image:url('../images/8.jpg')"></div>
+    </div>
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content container">
+      <h1>Train Harder. Live Stronger.</h1>
+      <p>Modern training programs, professional coaches, and equipment to help you reach your goals.</p>
+      <a href="contact.html" class="btn">Get Started</a>
+    </div>
+
+    <div class="hero-controls container">
+      <div id="slideDots" class="dots"></div>
+    </div>
+  </section>
+
+  <!-- This part of code is for welcome section part -->
+  <section class="section page-main container">
+    <div style="text-align:center">
+      <h2>Welcome to Elite Fitness GYM</h2>
+
+    </div>
+  </section>
+
+  
+
+  <!-- This part of code is for coaching packages section part -->
+  <section id="packages" class="section container">
+    <div style="text-align:center">
+      <h2>Coaching Packages</h2>
+      <p class="muted">Our New Packages for your fitness journey</p>
+    </div>
+
+    <div class="packages-grid container">
+      <article class="package-card">
+        <img src="../images/a.jpg" alt="Starter Package" />
+        <div class="pkg-body">
+          <h3>Starter Package</h3>
+          <p class="price"><span class="currency">PKR</span><span class="amount">4,500</span><span class="period"> / month</span></p>
+          <p class="pkg-desc">Gym access, group classes, and a monthly check-in to keep you on track.</p>
+          <a href="contact.html" class="btn">Sign Up</a>
+        </div>
+      </article>
+
+      <article class="package-card">
+        <img src="../images/b.jpg" alt="Standard Package" />
+        <div class="pkg-body">
+          <h3>Standard Package</h3>
+          <p class="price"><span class="currency">PKR</span><span class="amount">7,000</span><span class="period"> / month</span></p>
+          <p class="pkg-desc">Includes Starter features plus weekly group coaching sessions.</p>
+          <a href="contact.html" class="btn">Sign Up</a>
+        </div>
+      </article>
+
+      <article class="package-card popular">
+        <img src="../images/c.jpg" alt="Premium Package" />
+        <div class="badge" aria-hidden="true">Most Popular</div>
+        <div class="pkg-body">
+          <h3>Premium Package</h3>
+          <p class="price"><span class="currency">PKR</span><span class="amount">12,000</span><span class="period"> / month</span></p>
+          <p class="pkg-desc">Dedicated coach support, personalized plan, and priority bookings.</p>
+          <a href="contact.html" class="btn">Sign Up</a>
+        </div>
+      </article>
+
+      <article class="package-card">
+        <img src="../images/d.jpg" alt="Personal Training" />
+        <div class="pkg-body">
+          <h3>Personal Training (4 sessions)</h3>
+          <p class="price"><span class="currency">PKR</span><span class="amount">5,500</span></p>
+          <p class="pkg-desc">Four one-on-one sessions tailored to your goals and schedule.</p>
+          <a href="contact.html" class="btn">Sign Up</a>
+        </div>
+      </article>
+
+      <article class="package-card">
+        <img src="../images/e.jpg" alt="Weight Loss Program" />
+        <div class="pkg-body">
+          <h3>Weight Loss Program (12 weeks)</h3>
+          <p class="price"><span class="currency">PKR</span><span class="amount">28,000</span></p>
+          <p class="pkg-desc">Structured 12-week plan with coaching, nutrition guidance, and progress tracking.</p>
+          <a href="contact.html" class="btn">Sign Up</a>
+        </div>
+      </article>
+
+      <article class="package-card">
+        <img src="../images/f.jpg" alt="Strength & Conditioning" />
+        <div class="pkg-body">
+          <h3>Strength & Conditioning (12 weeks)</h3>
+          <p class="price"><span class="currency">PKR</span><span class="amount">32,000</span></p>
+          <p class="pkg-desc">Intensive 12-week strength plan focused on performance and technique.</p>
+          <a href="contact.html" class="btn">Sign Up</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+
+  <!-- This part of code is for schedule section part (static weekly timetable) -->
+  <section id="schedule" class="section page-main container">
+    <div style="text-align:center">
+      <h2>Gym Timetable</h2>
+      <p class="muted">This is our weekly schedule — plan your training.</p>
+
+      <div class="week-grid" style="margin-top:18px">
+        <div class="day-card">
+          <div class="day-header"><span>Sun</span><span class="day-date">Closed</span></div>
+          <p class="schedule-off">Closed — Rest day</p>
+        </div>
+
+        <div class="day-card">
+          <div class="day-header"><span>Mon</span><span class="day-date">Mon</span></div>
+          <ul class="slot-list">
+            <li class="slot-item type-strength"><span class="slot-swatch" aria-hidden="true"></span><div><strong>06:00 - 08:00</strong><div class="slot-activity">Morning Strength Training</div></div></li>
+            <li class="slot-item type-open"><span class="slot-swatch" aria-hidden="true"></span><div><strong>09:00 - 12:00</strong><div class="slot-activity">Open Gym</div></div></li>
+            <li class="slot-item type-class"><span class="slot-swatch" aria-hidden="true"></span><div><strong>17:00 - 20:00</strong><div class="slot-activity">Group Classes (HIIT & Cardio)</div></div></li>
+          </ul>
+        </div>
+
+        <div class="day-card">
+          <div class="day-header"><span>Tue</span><span class="day-date">Tue</span></div>
+          <ul class="slot-list">
+            <li class="slot-item type-class"><span class="slot-swatch" aria-hidden="true"></span><div><strong>06:00 - 08:00</strong><div class="slot-activity">Functional Training</div></div></li>
+            <li class="slot-item type-open"><span class="slot-swatch" aria-hidden="true"></span><div><strong>09:00 - 12:00</strong><div class="slot-activity">Open Gym</div></div></li>
+            <li class="slot-item type-strength"><span class="slot-swatch" aria-hidden="true"></span><div><strong>17:00 - 20:00</strong><div class="slot-activity">Strength & Conditioning</div></div></li>
+          </ul>
+        </div>
+
+        <div class="day-card">
+          <div class="day-header"><span>Wed</span><span class="day-date">Wed</span></div>
+          <ul class="slot-list">
+            <li class="slot-item type-class"><span class="slot-swatch" aria-hidden="true"></span><div><strong>06:00 - 08:00</strong><div class="slot-activity">Circuit Training</div></div></li>
+            <li class="slot-item type-open"><span class="slot-swatch" aria-hidden="true"></span><div><strong>09:00 - 12:00</strong><div class="slot-activity">Open Gym</div></div></li>
+            <li class="slot-item type-yoga"><span class="slot-swatch" aria-hidden="true"></span><div><strong>17:00 - 20:00</strong><div class="slot-activity">Yoga & Mobility</div></div></li>
+          </ul>
+        </div>
+
+        <div class="day-card">
+          <div class="day-header"><span>Thu</span><span class="day-date">Thu</span></div>
+          <ul class="slot-list">
+            <li class="slot-item type-strength"><span class="slot-swatch" aria-hidden="true"></span><div><strong>06:00 - 08:00</strong><div class="slot-activity">Powerlifting & Technique</div></div></li>
+            <li class="slot-item type-open"><span class="slot-swatch" aria-hidden="true"></span><div><strong>09:00 - 12:00</strong><div class="slot-activity">Open Gym</div></div></li>
+            <li class="slot-item type-class"><span class="slot-swatch" aria-hidden="true"></span><div><strong>17:00 - 20:00</strong><div class="slot-activity">Group Classes (CrossFit-style)</div></div></li>
+          </ul>
+        </div>
+
+        <div class="day-card">
+          <div class="day-header"><span>Fri</span><span class="day-date">Fri</span></div>
+          <ul class="slot-list">
+            <li class="slot-item type-cardio"><span class="slot-swatch" aria-hidden="true"></span><div><strong>06:00 - 08:00</strong><div class="slot-activity">Cardio Endurance</div></div></li>
+            <li class="slot-item type-open"><span class="slot-swatch" aria-hidden="true"></span><div><strong>09:00 - 14:00</strong><div class="slot-activity">Open Gym</div></div></li>
+            <li class="slot-item type-strength"><span class="slot-swatch" aria-hidden="true"></span><div><strong>16:00 - 19:00</strong><div class="slot-activity">Personal Training Sessions</div></div></li>
+          </ul>
+        </div>
+
+        <div class="day-card">
+          <div class="day-header"><span>Sat</span><span class="day-date">Sat</span></div>
+          <ul class="slot-list">
+            <li class="slot-item type-open"><span class="slot-swatch" aria-hidden="true"></span><div><strong>08:00 - 12:00</strong><div class="slot-activity">Weekend Open Gym</div></div></li>
+            <li class="slot-item type-class"><span class="slot-swatch" aria-hidden="true"></span><div><strong>14:00 - 17:00</strong><div class="slot-activity">Classes & Coaching</div></div></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="schedule-legend" style="display:flex;gap:16px;justify-content:center;align-items:center;margin-top:18px">
+        <span class="legend-item"><span class="legend-swatch swatch-strength" aria-hidden="true"></span> Strength</span>
+        <span class="legend-item"><span class="legend-swatch swatch-yoga" aria-hidden="true"></span> Yoga</span>
+        <span class="legend-item"><span class="legend-swatch swatch-cardio" aria-hidden="true"></span> Cardio</span>
+        <span class="legend-item"><span class="legend-swatch swatch-open" aria-hidden="true"></span> Open Gym</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- This part of code is for ready to start section part -->
+  <section class="section page-main container">
+    <div style="text-align:center">
+      <h2>Ready to Start Your Journey?</h2>
+      <p class="muted">Whether you’re looking to build strength, find your flow in yoga, or crush a cardio session, we’re here to help you reach your goals. Send us a message today to book your free trial or to ask any questions about our memberships.</p>
+      <a href="contact.html" class="btn ghost" style="margin-top:12px">Send a Message</a>
+    </div>
+  </section>
+
+  <!-- This part of code is for footer section part -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 EliteFitnessGYM — All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
