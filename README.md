@@ -32,6 +32,15 @@ A sleek, fully responsive gym & fitness landing page built to help gyms, persona
 - 📩 **Contact Section** — Easy-to-use contact form and location details
 - ⚡ **Fast & Lightweight** — Built with clean, optimized code — no heavy frameworks required
 
+## 🖥️ Demo
+
+<img width="1867" height="801" alt="image" src="https://github.com/user-attachments/assets/2dcc3f64-74ce-4848-849e-ceddc53fbca4" />
+<img width="1831" height="901" alt="image" src="https://github.com/user-attachments/assets/da911c5f-a5a4-4340-85b1-31b7108b8bc5" />
+<img width="1741" height="930" alt="image" src="https://github.com/user-attachments/assets/b0cc8fbf-2100-4a72-973f-10e5d7b823d7" />
+
+```
+🔗 Live Demo: modern-gym-website-six.vercel.app
+```
 
 ## 🛠️ Built With
 
@@ -116,7 +125,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ## 👤 Author
 
-**Saadullah**
+**Saad Ullah**
 - GitHub: [@saadullah990123](https://github.com/saadullah990123)
 
 ## ⭐ Show Your Support
